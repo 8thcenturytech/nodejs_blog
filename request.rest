@@ -1,0 +1,3 @@
+### Delete Post
+DELETE http://localhost:4000/api/v1/posts/68d0bcb0c8194ba16531c3a9
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDBiNTFmOGJmMTM3NjBiZDZiNDVkYiIsImVtYWlsIjoid29yZ3ViZWxpZXZlQGdtYWlsLmNvbSIsImlhdCI6MTc1ODUwODQ2NSwiZXhwIjoxNzU4NTk0ODY1fQ.qcGLZ0gNJlWFzzi_w0Xn9pwqNureZXe0V2zJ_X8Keaw
