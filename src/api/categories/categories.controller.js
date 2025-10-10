@@ -3,7 +3,7 @@ const slugify = require('../../utils/slugify');
 
 exports.list = async (req, res, next) => {
   const cats = await Category.find().sort('-createdAt');
-  res.json(cats);
+  res.json({ categories: cats });
 };
 
 exports.create = async (req, res, next) => {

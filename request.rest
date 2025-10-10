@@ -1,3 +1,23 @@
-### Delete Post
-DELETE http://localhost:4000/api/v1/posts/68d0bcb0c8194ba16531c3a9
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDBiNTFmOGJmMTM3NjBiZDZiNDVkYiIsImVtYWlsIjoid29yZ3ViZWxpZXZlQGdtYWlsLmNvbSIsImlhdCI6MTc1ODUwODQ2NSwiZXhwIjoxNzU4NTk0ODY1fQ.qcGLZ0gNJlWFzzi_w0Xn9pwqNureZXe0V2zJ_X8Keaw
+POST http://localhost:4000/api/v1/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDBiNTFmOGJmMTM3NjBiZDZiNDVkYiIsImVtYWlsIjoid29yZ3ViZWxpZXZlQGdtYWlsLmNvbSIsImlhdCI6MTc1OTY5NTk3NCwiZXhwIjoxNzU5NzgyMzc0fQ.sML5k-PTl4d2Dcr105DwWlecBM8ZZq3JfFampK6GwGE
+
+{
+  "title": "The Future of Artificial Intelligence",
+  "slug": "future-of-artificial-intelligence",
+  "coverImage": "https://example.com/images/ai-future.jpg",
+  "category": "68e2d4f6c97dd475b8777ab0",
+  "readTime": "6 min read",
+  "subtitles": ["AI and Automation", "Ethical Concerns"],
+  "writer": {
+    "name": "Believe",
+    "profileImage": "https://example.com/avatar.png"
+  },
+  "content": "Artificial Intelligence continues to redefine industries across the world...",
+  "isPublished": true,
+  "createdBy": "68d0b51f8bf13760bd6b45db",
+  "meta": {
+    "excerpt": "How AI will shape the future of work and technology.",
+    "tags": ["AI", "Technology", "Innovation"]
+  }
+}
