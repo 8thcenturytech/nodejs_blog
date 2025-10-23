@@ -4,8 +4,10 @@ const ctrl = require('./categories.controller');
 const auth = require('../../middleware/auth.middleware');
 
 router.get('/', ctrl.list);
+router.get('/:id', ctrl.getById);
 router.post('/', auth, ctrl.create);
 router.delete('/:id', auth, ctrl.remove);
 router.put('/:id', auth, ctrl.update);
+
 
 module.exports = router;
